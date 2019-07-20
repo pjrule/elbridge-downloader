@@ -1,6 +1,6 @@
 # Elbridge Downloader
 
-**Note: This repository contains data pipelines for my initial redistricting experiments (mid-2018). In the past year, the [Metric Geometry and Gerrymandering Group (MGGG)](https://mggg.org) at Tufts University and MIT [has compiled many high-quality shapefiles with demographic information and election results.](https://github.com/mggg-states) I now prefer these shapefiles to the ones I have compiled, though as of this writing MGGG does not have a Maryland shapefile available yet.**
+**Note: this repository contains data pipelines for my initial redistricting experiments (mid-2018). In the past year, the [Metric Geometry and Gerrymandering Group (MGGG)](https://mggg.org) at Tufts University and MIT [has compiled many high-quality shapefiles with demographic information and election results.](https://github.com/mggg-states) I now prefer these shapefiles to the ones I have compiled, though as of this writing MGGG does not have a Maryland shapefile available yet.**
 
 
 Precinct-level election data is spotty. Some states are more digitally conscious than others, and every state has its own conventions. Elbridge currently only supports three states (Maryland, Pennsylvania, and Wisconsin), but it relies on eight different data formats from five different sources. The scripts in this directory are intended to fully reproduce the various transformations necessary to wrangle all of this disparate data into a reasonably consistent format from scratch. There are thus many details in the code specifically related to the data sources used.
